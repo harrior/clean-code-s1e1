@@ -155,15 +155,15 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.task-text {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode .task-text {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+.edit-mode .task-label {
   display: none;
 }
