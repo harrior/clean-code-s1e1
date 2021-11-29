@@ -13,33 +13,33 @@
 <div class="container">
   <p class="new-task-form">
     <label class="new-task-label" for="new-task">Add Item</label>
-    <div class="new-task-row-wrapper">
+    <div class="new-task-wrap">
       <input class="task" id="new-task" type="text">
       <button class="btn">Add</button>
     </div>
   </p>
-  <h3>Todo</h3>
+  <h3 class="title">Todo</h3>
   <ul id="incomplete-tasks">
-    <li>
-      <input type="checkbox"><label class="task task-label">Pay Bills</label>
+    <li class="task-item">
+      <input class="task-check" type="checkbox"><label class="task task-label">Pay Bills</label>
       <input class="task task-text" type="text">
       <button class="btn edit">Edit</button>
-      <button class="btn delete"><img src="./remove.svg"></button>
+      <button class="btn delete"><img class="btn-img" src="./remove.svg"></button>
     </li>
-    <li class="edit-mode">
-      <input type="checkbox"><label class="task task-label">Go Shopping</label>
+    <li class="task-item edit-mode">
+      <input class="task-check" type="checkbox"><label class="task task-label">Go Shopping</label>
       <input class="task task-text" type="text" value="Go Shopping">
       <button class="btn edit">Save</button>
-      <button class="btn delete"><img src="./remove.svg"></button>
+      <button class="btn delete"><img class="btn-img" src="./remove.svg"></button>
     </li>
   </ul>
-  <h3>Completed</h3>
+  <h3 class="title">Completed</h3>
   <ul id="completed-tasks">
-    <li>
-      <input checked type="checkbox"><label class="task task-label">See the Doctor</label>
+    <li class="task-item">
+      <input class="task-check" checked type="checkbox"><label class="task task-label">See the Doctor</label>
       <input class="task task-text" type="text">
       <button class="btn edit">Edit</button>
-      <button class="btn delete"><img src="./remove.svg"></button>
+      <button class="btn delete"><img class="btn-img" src="./remove.svg"></button>
     </li>
   </ul>
 </div>
